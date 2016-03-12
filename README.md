@@ -2,7 +2,7 @@
 SystemJS plugin for compiling CoffeeScript
 
 ```
-jspm install coffee
+jspm install coffee=github:chrmoritz/system-coffee
 ```
 
 In config.js:

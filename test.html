@@ -8,7 +8,7 @@
   <script>
     System.import('./test.coffee!./coffee.js')
       .then(function (test) {
-        var t = new test('Test');
+        var t = new test.CoffeeTest('Test');
         document.body.innerHTML += t.go(3);
       })
       .catch(function (err) {
